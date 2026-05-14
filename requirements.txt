@@ -1,0 +1,32 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Requirements — Federated Transfer Learning for ECG Cardiac Disease
+# Classification
+#
+# Tested environment:
+#   Platform : Google Colab (November 2025)
+#   Python   : 3.10
+#   CUDA     : 12.2  (Nvidia Tesla T4 16 GB)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Deep learning
+torch==2.5.1
+torchvision==0.20.1
+
+# Scientific computing
+numpy==1.26.4
+scipy==1.13.1
+
+# Machine learning utilities
+scikit-learn==1.5.2
+
+# Image handling
+Pillow==11.0.0
+
+# Progress bars
+tqdm==4.67.1
+
+# Plotting & visualisation
+matplotlib==3.9.2
+
+# (Optional) Jupyter / Colab convenience
+ipywidgets>=7.7.0

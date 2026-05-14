@@ -1,0 +1,59 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ─── Jupyter / IPython ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── Dataset (large binary files — do not commit) ─────────────────────────────
+ECG_DATA/
+data/
+datasets/
+
+# ─── Model weights & results ─────────────────────────────────────────────────
+results/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+
+# ─── Plots / generated files ─────────────────────────────────────────────────
+# *.png  (re-enabled: assets images are tracked)
+# *.jpg  (re-enabled: assets images are tracked)
+# *.jpeg  (re-enabled: assets images are tracked)
+*.pdf
+
+# ─── OS / Editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+runs/
+
+# ─── Ignore generated output plots but NOT assets ────────────────────────────
+results/
+*.pth
+*.pt
