@@ -5,7 +5,6 @@
 [![IEEE](https://img.shields.io/badge/Published-IEEE%20ICAAIC--2025-00629B?logo=ieee)](https://ieeexplore.ieee.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-> **Official PyTorch implementation** of the paper:  
 > *"A Federated Transfer Learning Framework for Cardiac Disease Identification using ECG Images"*  
 > **4th International Conference on Applied Artificial Intelligence and Computing (ICAAIC-2025), IEEE**  
 > DOI: [10.1109/ICAAIC64647.2025.11330229](https://doi.org/10.1109/ICAAIC64647.2025.11330229)
