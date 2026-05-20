@@ -52,7 +52,7 @@ The overall pipeline — from data preprocessing through federated training to e
 <p align="center">
   <img src="assets/model_architecture.png" width="55%" alt="Full model architecture"/>
 </p>
-<p align="center"><em>Fig. Model Architecture — Data preprocessing, federated learning loop, and evaluation</em></p>
+<p align="center"><em>Fig. Model Architecture </em></p>
 
 The flow is:
 1. ECG images are loaded, resized, and normalised; then distributed equally across **3 clients**
@@ -68,7 +68,7 @@ Unlike the standard SE block (compress → expand), ISE **expands first, then sq
 <p align="center">
   <img src="assets/ise_block.png" width="35%" alt="ISE block diagram"/>
 </p>
-<p align="center"><em>Fig. ISE Block — expand (ReLU) → squeeze (Sigmoid) → element-wise gating</em></p>
+<p align="center"><em>Fig. ISE Block </em></p>
 
 ### Classification Head
 
